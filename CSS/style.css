@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sintony:wght@400;700&display=swap');
+
+
+/* Created by: Md Mazlan;
+    Date: 09 Jul 2021;
+    library: bootstrap, font-awesome 
+*/
+
+
+
+/* body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Sintony', sans-serif;
+} */
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.bg-image {
+    height: 110vh;
+
+    top: 0;
+    position: relative;
+    left: 0;
+    right: 0;
+    background-image: url(../img/BG-hero.svg);
+    background-size: cover;
+    background-position: center top;
+}
+
+
+/* \\\\\\\\\\\\\\\\\\\\header  area css start//////////////////// */
+
+.nav-logo-brand {
+    display: flex !important;
+    align-items: center;
+}
+
+.nav-logo-brand>* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item .nav-link {
+    font-size: 0.75em;
+    color: white !important;
+}
+
+img.img-logo {
+    transform: rotate(-45deg);
+}
+
+h3.logo-name {
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    margin-left: 0.75em;
+}
+
+ul.navbar-nav.mr-auto {
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+button.btn.signup {
+
+    background-color: white;
+    font-size: 16px;
+    font-weight: 500;
+    color: #222A41;
+    border-radius: 50px;
+    padding: 6px 20px;
+    border: none;
+}
+
+@media (max-width: 1199.98px) {
+
+    .nav-item .nav-link {
+        font-size: 0.75em;
+        color: gray !important;
+    }
+
+    .navbar-collapse {
+        padding: 1em;
+        z-index: 1000;
+        background-color: white;
+    }
+
+    .navbar-collapse .signup {
+        background-color: #222A41 !important;
+        margin: 1em 0;
+        color: white !important;
+    }
+
+    .navbar-collapse .signup:hover,
+    .navbar-collapse .signup:active,
+    .navbar-collapse .signup:focus {
+        background-color: white !important;
+        color: black !important;
+    }
+}
+
+/* \\\\\\\\\\\\\\\\\\\\header  area css End//////////////////// */
+/* \\\\\\\\\\\\\\\\\\\\Section 1 area start //////////////////// */
+
+.row.section1 {
+    margin-top: 20px;
+}
+
+.txt-ger-your-next {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+span.span-done {
+    background-color: #E9F3F6;
+    border: 2px dashed #5fb4b7;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.txt-fill-a-short {
+    font-size: 20px;
+    opacity: 0.8;
+    padding-right: 30px;
+    margin-top: 45px;
+}
+
+button.btn-know-more {
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    border-radius: 50px;
+    padding: 10px 20px;
+    border: none;
+    background-color: white;
+}
+
+img.img-circle1 {
+    width: 70%;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\Section 1 area End //////////////////// */
+
+
+/* \\\\\\\\\\\\\\\\\\\\Section 2 area Start //////////////////// */
+
+#features-mini {
+    margin-top: -125px;
+}
+
+.circle-image {
+    border-radius: 100%;
+    padding: 1em;
+    display: inline-block;
+}
+
+.feature-mini {
+    background-color: white;
+    border-radius: 25px;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\Section 2 area End //////////////////// */
+
+
+
+
+/* \\\\\\\\\\\\\\\\\\\\Section 3 area Start //////////////////// */
+#features {
+    margin-top: 10em;
+    background-image: url(../img/Path\ 3.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.feature {
+    margin: 3em 0;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\Section 3 area End //////////////////// */
+
+
+/* \\\\\\\\\\\\\\\\\\\\Section 4 area Start //////////////////// */
+#casestudies {
+    margin-top: 10em;
+}
+
+.casstudy {
+    height: 250px;
+    outline: 1px solid rgba(128, 128, 128, 0.315);
+    border-radius: 15px;
+}
+
+.case-image {
+    width: 40%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    overflow: hidden;
+}
+
+.case-content {
+    width: 60%;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\Section 4 area End //////////////////// */
+
+/* \\\\\\\\\\\\\\\\\\\\Section 5 area Start //////////////////// */
+#testimonials {
+    background-image: url(../img/Path\ 2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10em 0;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\Section 5 area End //////////////////// */
+
+
+/* \\\\\\\\\\\\\\\\\\\\Section 7 area Start //////////////////// */
+#team {
+    margin: 10em 0;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\Section 7 area End //////////////////// */
+
+
+
+/* \\\\\\\\\\\\\\\\\\\\Section 8 area Start //////////////////// */
+#cta {
+    margin: 10em 0;
+}
+
+.overlay {
+    position: relative;
+    border-radius: 25px;
+    background: linear-gradient(0deg, #6F86D6 0%, #48C6EF 100%);
+}
+
+.overlay::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url(../img/Bgpattern.svg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\Section 8 area End //////////////////// */
+
+
+
+/* \\\\\\\\\\\\\\\\\\\\Section 9 area Start //////////////////// */
+#contact {
+    margin: 10em 0;
+}
+
+
+/* \\\\\\\\\\\\\\\\\\\\Section 9 area End //////////////////// */
