@@ -4,6 +4,5 @@ https://mdmazlan.github.io/SEO-Service-Website/
   <p align="center"> <br />
     <br />
     <img src="Screenshot.png" width="95%" />
-    <h2 align="left">Features</h2>
   </p>
 </p>
